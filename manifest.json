@@ -1,1 +1,25 @@
-{"name":"بانک هدایت تراکنش توسن تکنو","short_name":"هدایت تراکنش","lang":"fa","dir":"rtl","start_url":"./","display":"standalone","background_color":"#f3f6fa","theme_color":"#07539a","description":"سامانه هوشمند تحلیل و توسعه شبکه شرکت‌ها","icons":[{"src":"./logo.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "بانک هدایت تراکنش توسن تکنو",
+  "short_name": "هدایت تراکنش",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#07539a",
+  "description": "سامانه هوشمند تحلیل و توسعه شبکه شرکت‌ها",
+  "icons": [
+    {
+      "src": "./logo-original.png",
+      "sizes": "262x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
