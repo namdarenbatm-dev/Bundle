@@ -1,13 +1,13 @@
 {
   "name": "بانک هدایت تراکنش ایران",
-  "short_name": "هدایت تراکنش",
+  "short_name": "هدایت تراکنش ایران",
   "lang": "fa",
   "dir": "rtl",
-  "start_url": "./",
+  "start_url": "./?app=iran-transaction-bank",
   "display": "standalone",
   "background_color": "#f3f6fa",
   "theme_color": "#07539a",
-  "description": "سامانه هوشمند تحلیل و توسعه شبکه شرکت‌ها",
+  "description": "سامانه هوشمند تحلیل، رتبه‌بندی و توسعه شبکه شرکت‌ها",
   "icons": [
     {
       "src": "./logo-original.png?v=12",
