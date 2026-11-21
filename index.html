@@ -17,6 +17,22 @@ main{min-width:0;padding:24px 28px 40px}.topbar{display:flex;justify-content:spa
 .brand-panel img{width:112px;height:auto;object-fit:contain;flex:none}
 .brand-panel strong{font-family:'Yekan','Vazirmatn',Tahoma,sans-serif;color:#082d55;font-size:14px;line-height:1.8;font-weight:800;display:block}
 @media(max-width:720px){.splash-logo{width:min(560px,76vw);margin-bottom:22px}.splash-copy{font-size:20px;line-height:2}.app-brand{gap:12px;padding:8px 10px;min-height:76px;margin-bottom:14px}.app-brand img{width:104px}.app-brand h1{font-size:18px;line-height:1.8}}
+
+/* v10: prevent PNG logo clipping; preserve the full original 262x192 artwork */
+.app-brand{display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:16px!important;min-height:0!important;height:auto!important;overflow:visible!important;box-sizing:border-box!important;background:#fff!important;border:0!important;border-radius:14px!important;padding:12px 16px!important;margin:0 0 18px!important}
+.app-brand img{display:block!important;width:clamp(132px,18vw,190px)!important;height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:262/192!important;object-fit:contain!important;object-position:center!important;overflow:visible!important;flex:0 0 auto!important;align-self:center!important;padding:0!important;margin:0!important}
+.app-brand h1{display:block!important;min-width:0!important;overflow:visible!important;white-space:normal!important;line-height:1.9!important;margin:0!important}
+.splash{overflow-y:auto!important;overflow-x:hidden!important}
+.splash-inner{box-sizing:border-box!important;min-height:100%!important;height:auto!important;overflow:visible!important;padding:36px 20px!important}
+.splash-logo{display:block!important;width:min(560px,76vw)!important;height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:262/192!important;object-fit:contain!important;object-position:center!important;overflow:visible!important;flex:none!important;padding:0!important;border:0!important}
+@media(max-width:720px){
+.app-brand{gap:12px!important;padding:10px 12px!important;min-height:0!important}
+.app-brand img{width:clamp(118px,31vw,150px)!important;height:auto!important;max-height:none!important}
+.app-brand h1{font-size:18px!important;line-height:1.9!important}
+.splash-inner{padding:28px 16px!important}
+.splash-logo{width:min(560px,82vw)!important;height:auto!important;max-height:none!important;margin:0 auto 22px!important}
+}
+
 </style><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hemedani/yekan@v3.0.0/font-face.css"></head><body><div class="splash" id="splash"><div class="splash-inner"><img class="splash-logo" src="./logo-original.png?v=9" alt="TOSAN TECHNO"><div class="splash-copy"><div>سامانه طراحی و مدیریت</div><div>کمپین‌های فروش توسن تکنو</div><strong>Techno Campaign</strong></div><div class="splash-line"></div></div></div>
 <div class="shell"><aside class="sidebar"><div class="nav-label">مرکز تصمیم‌گیری</div><nav class="nav">
 <button class="active" data-page="dashboard"><span class="ico">▦</span>داشبورد مدیریتی</button>
