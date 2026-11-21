@@ -79,7 +79,15 @@ main{min-width:0;padding:24px 28px 40px}.topbar{display:flex;justify-content:spa
 .app-brand img{width:clamp(150px,19vw,210px)!important;height:auto!important;max-height:none!important;aspect-ratio:262/192!important;object-fit:contain!important;object-position:center!important;overflow:visible!important;display:block!important;flex:0 0 auto!important}
 @media(max-width:720px){.splash-logo{width:min(390px,86vw)!important}.app-brand img{width:clamp(126px,36vw,160px)!important}}
 
-</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hemedani/yekan@v3.0.0/font-face.css"></head><body><div class="splash" id="splash"><div class="splash-inner"><img class="splash-logo" src="./logo-original.png?v=12" alt="TOSAN TECHNO"><div class="splash-copy"><div>سامانه طراحی و مدیریت</div><div>کمپین‌های فروش توسن تکنو</div><strong>Techno Campaign</strong></div><div class="splash-line"></div></div></div>
+
+/* v17: exact splash title and complete desktop app logo */
+.splash-copy.splash-title{font-family:'Yekan','Vazirmatn',Tahoma,sans-serif!important;font-size:clamp(23px,3.2vw,32px)!important;font-weight:800!important;line-height:1.8!important;letter-spacing:0!important;color:#10243c!important;margin:8px 0 0!important;text-align:center!important}
+.splash-copy.splash-title::first-letter{letter-spacing:0!important}
+.app-brand{align-items:center!important;overflow:visible!important}
+.app-brand img{display:block!important;width:210px!important;max-width:32vw!important;height:auto!important;max-height:none!important;aspect-ratio:262/192!important;object-fit:contain!important;object-position:center!important;overflow:visible!important;flex:0 0 auto!important}
+@media(max-width:720px){.app-brand img{width:clamp(126px,36vw,160px)!important;max-width:44vw!important}}
+
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hemedani/yekan@v3.0.0/font-face.css"></head><body><div class="splash" id="splash"><div class="splash-inner"><img class="splash-logo" src="./logo-original.png?v=12" alt="TOSAN TECHNO"><div class="splash-copy splash-title">بانک هدایت تراکنش ایران</div><div class="splash-line"></div></div></div>
 <div class="shell"><aside class="sidebar"><div class="nav-label">مرکز تصمیم‌گیری</div><nav class="nav">
 <button class="active" data-page="dashboard"><span class="ico">▦</span>داشبورد مدیریتی</button>
 <button data-page="geo"><span class="ico">◎</span>هوش جغرافیایی</button>
