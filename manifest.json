@@ -10,16 +10,10 @@
   "description": "سامانه هوشمند تحلیل و توسعه شبکه شرکت‌ها",
   "icons": [
     {
-      "src": "./logo-original.png",
+      "src": "./logo-original.png?v=6",
       "sizes": "262x192",
       "type": "image/png",
       "purpose": "any"
-    },
-    {
-      "src": "./logo.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
     }
   ]
 }
