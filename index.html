@@ -106,7 +106,7 @@ main{min-width:0;padding:24px 28px 40px}.topbar{display:flex;justify-content:spa
 <label class="field-wrap"><span class="muted">استان</span><select id="smsProvince" class="field"><option value="">همه استان‌ها</option></select></label>
 <label class="field-wrap"><span class="muted">گروه مخاطب</span><select id="smsSegment" class="field"><option value="all">تمام مخاطبان دارای شماره</option><option value="positive">دارای فروش ماهانه</option><option value="zero">بدون فروش ماهانه</option><option value="ok">وضعیت تماس: اوکی</option><option value="other">سایر وضعیت‌ها</option></select></label>
 <label class="field-wrap"><span class="muted">وضعیت تماس</span><select id="smsStatus" class="field"><option value="">همه وضعیت‌ها</option></select></label>
-<label class="field-wrap"><span class="muted">تعداد مخاطب در هر نوبت</span><select id="smsBatchSize" class="field"><option value="5">۵ مخاطب</option><option value="10">۱۰ مخاطب</option><option value="10" selected>۲۰ مخاطب</option><option value="30">۳۰ مخاطب</option></select></label>
+<label class="field-wrap"><span class="muted">تعداد مخاطب در هر نوبت</span><select id="smsBatchSize" class="field"><option value="5">۵ مخاطب</option><option value="10" selected>۱۰ مخاطب</option><option value="20">۲۰ مخاطب</option><option value="30">۳۰ مخاطب</option></select></label>
 </div>
 <div class="sms-audience" style="margin-top:16px"><div><small>مخاطبان واجد شرایط</small><strong id="smsAudienceCount">۰</strong></div><div><small>بازه ارسال جاری</small><strong id="smsBatchLabel">—</strong></div><div><small>تعداد نوبت‌های لازم</small><strong id="smsBatchCount">۰</strong></div></div>
 <div class="muted" id="smsPreview" style="font-size:11px;line-height:2;margin-top:12px">برای انتخاب جامعه هدف، فایل اکسل مشتریان را بارگذاری کنید.</div>
@@ -116,7 +116,7 @@ main{min-width:0;padding:24px 28px 40px}.topbar{display:flex;justify-content:spa
 <textarea id="smsMessage" class="field" rows="7" maxlength="1000" placeholder="متن پیامک کمپین را اینجا بنویسید..."></textarea>
 <div class="sms-message-meta"><span id="smsCharCount">۰ کاراکتر</span><span id="smsParts">تقریباً ۱ پیامک</span></div>
 <div class="sms-actions">
-<button class="btn" id="smsOpen" type="button">✉ باز کردن پیامک برای جامعه هدف</button>
+<button class="btn" id="smsOpen" type="button">✉ باز کردن پیامک برای نوبت جاری</button>
 <button class="btn secondary" id="smsCopyPhones" type="button">کپی شماره‌های نوبت جاری</button>
 <button class="btn ghost" id="smsNext" type="button">نوبت بعدی ←</button>
 <button class="btn ghost" id="smsReset" type="button">بازنشانی نوبت‌ها</button>
