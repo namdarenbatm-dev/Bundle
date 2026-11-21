@@ -1,5 +1,5 @@
 {
-  "name": "بانک هدایت تراکنش توسن تکنو",
+  "name": "بانک هدایت تراکنش ایران",
   "short_name": "هدایت تراکنش",
   "lang": "fa",
   "dir": "rtl",
@@ -10,7 +10,7 @@
   "description": "سامانه هوشمند تحلیل و توسعه شبکه شرکت‌ها",
   "icons": [
     {
-      "src": "./logo-brand-bg.png?v=8",
+      "src": "./logo-original.png?v=9",
       "sizes": "262x192",
       "type": "image/png",
       "purpose": "any"
