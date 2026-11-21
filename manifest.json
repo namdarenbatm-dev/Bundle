@@ -10,7 +10,7 @@
   "description": "سامانه هوشمند تحلیل، رتبه‌بندی و توسعه شبکه شرکت‌ها",
   "icons": [
     {
-      "src": "./app-icon.svg?v=19",
+      "src": "./app-icon.svg?v=20",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any"
